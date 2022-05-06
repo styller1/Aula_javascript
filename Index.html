@@ -4,8 +4,15 @@
           <meta charset="utf-8">
           <script type="text/javascript" src="js/Main.js"></script>
         </head>
-        <body>
+        <body onload="load()">
         <button type="button" onclick= "clicou()">Clique aqui</button>
-        <p id= "obg" onclick="redirecionar()"></p>
-        </body>
+        <p id= "agradecimento" onclick="redirecionar()"></p>
+        <h5 id= "mousemove" onmouseover="trocar(this)" onmouseout="voltar(this)">Passe o mouse aqui</h5>
+        <h5 id= "mousemove2" onmouseover="trocar(this)" onmouseout="voltar(this)">Passe o mouse aqui</h5>
+      <select onchange="funcaochange(this)">
+        <option value="1">Valor 1</option>
+        <option value="2">Valor 2</option>
+        <option value="3">Valor 3</option>
+      </select>  
+      </body>
 </html>

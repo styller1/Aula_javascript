@@ -1,19 +1,36 @@
 
 
 
-/*
+
 function clicou(){
-document.getElementById("obg").innerHTML =  "<b>obrigado por clcar</b>"
+document.getElementById("agradecimento").innerHTML =  "<b>obrigado por clicar</b>";
 //console.log(document.getElementById("obg"))
-};
-function redirecionar (){
-    //.opne abre em outra aba
-    //window.open("https://google.com.br");
+}
+function redirecionar () {
+    //.open abre em outra aba
+    window.open("https://google.com.br");
     //abre na mesma pagina
     //window.location.href = "https://google.com.br"
 }
-*/
-/*
+function trocar(elemento) {
+    elemento.innerHTML = "obrigado por passar o mouse";
+    //alert("trocar texto")
+}
+
+function voltar(elemento){
+    //document.getElementById("mousemove").innerHTML= "Passe o Mouse Aqui";
+    elemento.innerHTML = "Passe o Mouse Aqui";
+    }
+    function load(){
+        alert("pagina carregada");
+    }
+function funcaochange(elemento){
+    console.log(elemento.value);
+}
+
+
+    /*
+
 //variaveis global e local
 function soma(n1, n2) {
     return n1 + n2;
